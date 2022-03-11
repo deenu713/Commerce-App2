@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import androidx.annotation.NonNull;
@@ -41,14 +42,10 @@ public class HomeFragment extends Fragment {
 
     private List<Model> initData() {
         itemList=new ArrayList<>();
-        itemList.add(new Model(R.drawable.icon,"video 1"));
-        itemList.add(new Model(R.drawable.icon,"video 1"));
-        itemList.add(new Model(R.drawable.icon,"video 1"));
-        itemList.add(new Model(R.drawable.icon,"video 1"));
-        itemList.add(new Model(R.drawable.icon,"video 1"));
-        itemList.add(new Model(R.drawable.icon,"video 1"));
-        itemList.add(new Model(R.drawable.icon,"video 1"));
-        itemList.add(new Model(R.drawable.icon,"video 1"));
+        itemList.add(new Model(R.drawable.b1,"semester 1"));
+        itemList.add(new Model(R.drawable.b2,"semester 2"));
+        itemList.add(new Model(R.drawable.b3,"semester 3"));
+        itemList.add(new Model(R.drawable.b4,"semester 4"));
 
 
         return itemList;
